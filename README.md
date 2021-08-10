@@ -2,7 +2,7 @@
 
 #How does the user interact with your executable? How do you open and control the software you wrote (exe file)? 
 
-Opening the executable shows a model of a cat with Shadows activated. Pressing 1 will deactivate and 2 will activate a toon shaded cat model, and Pressing 3 and 4 will do the same but for a particle system
+Opening the executable found in folder "x64/release" shows a model of a cat with Shadows activated. Pressing 1 will deactivate and 2 will activate a toon shaded cat model, and Pressing 3 and 4 will do the same but for a particle system.
 
 #How does the program code work? How do the classes and functions fit together and who does what? 
 
