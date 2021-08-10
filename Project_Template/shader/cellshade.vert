@@ -1,0 +1,17 @@
+#version 460
+
+layout (location = 0) in vec3 VertexPosition;
+layout (location = 0) in vec3 VertexNormal;
+
+out vec3 VNormal;
+out vec3 VPosition;
+
+uniform mat4 ModelViewMatrix;
+uniform mat3 NormalMatrix;
+uniform mat4 ProjMatrix;
+
+void main() {
+    VNormal = normalize(NormalMatrix * VertexNormal);
+    VPosition = vec3(ModelViewMatrix * vec4(VertexPosition, 1.0));
+    gl_Position = ProjMatrix * vec4(VertexPosition,1.0);
+}
