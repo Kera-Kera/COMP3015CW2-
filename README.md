@@ -1,4 +1,4 @@
-###Benjamin Daniel Resubmission for COMP3015 Coursework 2
+###Benjamin Daniel Resubmission for COMP3015 Coursework 2 Resubmission
 
 #How does the user interact with your executable? How do you open and control the software you wrote (exe file)? 
 
