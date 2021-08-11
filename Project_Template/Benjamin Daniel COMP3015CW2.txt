@@ -1,0 +1,28 @@
+###Benjamin Daniel COMP3015
+
+#Which version Visual Studio and Operating System you used to test/write the code locally? 
+
+Version 16.7.6 and Windows 10 were used to make this.
+
+#How does it work?
+
+It uses a cat obj and a cat material as well as a different texture for the planes that interact with the light position. The cat in the middle creates a shadow and the other cat and the walls react to it, showing the shadow on them.
+As well as that, the second cat to the right uses a toon shader and there is a particle system on top of the cat.
+
+#What makes your shader program special and how does it compare to similar things? (Where did you get the idea from? What did you start with? How did you make yours unique? Did you start with a given shader/project?)
+
+It uses a cat obj and a cat material. The light moves around the scene affecting the middle cat. The shadow created by this will affect the toon shaded cat next to it.
+During the first pass of the render I render the base models of everything using the RenderProg, as well as draw the cell shaded cat, this is so the shadow will affect it in the next passes
+In pass two and three i create the shadows by getting the scene ready to have the shadows applied to it in the third pass. 
+Buttons also affect what shaders are being used, theres are changed using 1, 2, 3 and 4. The buttons are made defined in the scene.h, and a function is used in scenerunner in order to pass though button press from the open window.
+
+#A link to the Gitub repo you created for public use
+
+https://github.com/Kera-Kera/COMP3015CW2-ReSub
+
+#A Link to the unlisted YouTube Video
+
+https://www.youtube.com/watch?v=EOEZ83-tGcM
+
+#Launching the EXE file
+Go into "x64/Release" and launch the Project_Template.exe file. 
